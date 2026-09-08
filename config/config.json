@@ -1,0 +1,36 @@
+{
+  "Environment": "development",
+  "LogLevel": "info",
+
+  "Server": {
+    "Host": "0.0.0.0",
+    "Port": 9339
+  },
+
+  "Database": {
+    "File": "data/accounts.db"
+  },
+
+  "Game": {
+    "ClubWarsEnabled": false,
+    "StarPoints": 999999,
+    "Tickets": 999999,
+    "Gold": 999999,
+    "Gems": 999999,
+    "Trophies": 0,
+    "ExperiencePoints": 999999,
+    "BrawlBoxTokens": 999999,
+    "BigBoxTokens": 999999,
+    "Region": "BR",
+    "ThemeID": 0,
+    "ContentCreatorCodes": [
+      "Kartell"
+    ],
+    "BannedIPs": [],
+    "Maintenance": false,
+    "SecondsTillMaintenanceOver": 3600,
+    "Patch": false,
+    "PatchURL": "http://192.168.0.101:8080/",
+    "UpdateURL": ""
+  }
+}

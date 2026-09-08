@@ -1,0 +1,68 @@
+{
+   "GoldPacks":[
+      {
+         "Cost":20,
+         "Amount":150
+      },
+      {
+         "Cost":50,
+         "Amount":400
+      },
+      {
+         "Cost":140,
+         "Amount":1200
+      },
+      {
+         "Cost":280,
+         "Amount":2600
+      }
+   ],
+   "Boxes":[
+      {
+         "Cost":30,
+         "Multiplier":3
+      },
+      {
+         "Cost":80,
+         "Multiplier":10
+      }
+   ],
+   "TokenDoubler":[
+      {
+         "Cost":50,
+         "Amount":1000
+      }
+   ],
+   "GemsPacks":[
+      {
+         "Cost":500,
+         "Amount":20
+      },
+      {
+         "Cost":1500,
+         "Amount":60
+      },
+      {
+         "Cost":3500,
+         "Amount":100
+      }
+   ],
+
+   "Offers": [
+      {
+         "Items": [
+            {
+               "OfferID": 6,
+               "Amount": 10
+            },
+            {
+               "OfferID": 1,
+               "Amount": 69
+            }
+         ],
+         "Cost": 15,
+         "OfferBackground": "offer_xmas",
+         "Title": "Welcome to Kartell's server"
+      }
+   ]
+}

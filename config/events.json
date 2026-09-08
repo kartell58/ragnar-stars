@@ -1,0 +1,49 @@
+[
+   {
+      "Index": 1,
+      "Timer": 1000,
+      "LocationID": 7,
+      "Status": 3,
+      "Modifiers": [1, 2]
+   },
+   {
+      "Index": 2,
+      "Timer": 1000,
+      "LocationID": 32,
+      "Status": 3
+   },
+   {
+      "Index": 3,
+      "Timer": 1000,
+      "LocationID": 17,
+      "Status": 3
+   },
+   {
+      "Index": 4,
+      "Timer": 1000,
+      "LocationID": 0,
+      "Status": 3
+   },
+   {
+      "Index": 6,
+      "Timer": 1000,
+      "LocationID": 23,
+      "Status": 3
+   },
+   {
+      "Index": 8,
+      "LocationID":24,
+      "Status":3,
+      "Ended":false,
+      "Timer": 99999,
+      "Modifier":0
+   },
+   {
+      "Index": 7,
+      "LocationID": 202,
+      "Status":3,
+      "Ended":false,
+      "Timer": 99999,
+      "Modifier":0
+   }
+]

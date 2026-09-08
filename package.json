@@ -1,0 +1,44 @@
+{
+  "name": "brawl-stars-server",
+  "version": "26.184",
+  "description": "A Brawl Stars server emulator",
+  "license": "MIT",
+  "author": "kartell58",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "login": "node ./src/servers/login.js",
+    "admin": "node ./scripts/admin.js",
+    "dev": "nodemon --watch src --watch config --exec node src/server.js",
+    "migrate": "node src/db/migrate.js",
+    "smoke": "node scripts/config-smoke.js && node scripts/packets-smoke.js && node scripts/db-smoke.js",
+    "config-smoke": "node scripts/config-smoke.js",
+    "packets-smoke": "node scripts/packets-smoke.js",
+    "db-smoke": "node scripts/db-smoke.js",
+    "genClient": "./tools/build-client.sh",
+    "lint": "eslint . --ext .js",
+    "check": "./scripts/checker.sh",
+    "test": "node --test \"test/unit/*.test.js\"",
+    "test:integration": "node --test \"test/integration/*.test.js\"",
+    "verify": "./scripts/checker.sh && npm test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "pino": "^9.0.0",
+    "pino-pretty": "^13.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "brawl-stars",
+    "brawl",
+    "stars",
+    "supercell"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "interaction": {
+    "type": "script",
+    "path": "/data/data/__APP_ID__/files/krtl-gadget.js",
+    "on_change": "ignore"
+  },
+  "runtime": "default"
+}

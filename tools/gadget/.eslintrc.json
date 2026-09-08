@@ -1,0 +1,16 @@
+{
+  "globals": {
+    "Process": "writable",
+    "NativeFunction": "writable",
+    "Module": "writable",
+    "Memory": "writable",
+    "Interceptor": "writable",
+    "ptr": "writable",
+    "Thread": "writable",
+    "rpc": "writable"
+  },
+  "rules": {
+    "no-empty": "off",
+    "no-unused-vars": "off"
+  }
+}
